@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+
+.html {
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+body {
+    background-color: #CDF0EA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    margin-top: 12em;
+}
+
+
+
+.list-group-item {
+    padding: 10px 5px;
+
+}
+
+.active {
+    cursor: pointer;
+    background-color: #BEAEE2 !important;
+    border-color: #BEAEE2 !important;
+    color: #4C4C6D !important;
+}
